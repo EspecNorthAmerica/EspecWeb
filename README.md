@@ -29,6 +29,7 @@ Updates currently must be distrubuted via the [espec service department](http://
     * Trying to delete a running program on the WatlowF4T now returns error message instead of false success messsage.
     * Monitor tab's graph legend is now clickable when the page initially loads (was not clickable until graph refreshed).
     * Submitting a form with an expired CSRF token now explains why the form submission failed instead of going to a useless error page.
+    * javascript files used by the web ui are now versioned so that hard page refreshes are not required after updates.
 
 ### 2.1.2
   * Bug fixes for multi controller chambers.
