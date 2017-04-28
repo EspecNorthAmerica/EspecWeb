@@ -18,6 +18,7 @@ Updates currently must be distrubuted via the [espec service department](http://
   * Additional controls for the monitor tab's graph (independent axis zooming, zoom extents, disable scrool wheel controls).
     * A future update will make these settings persistant per user.
   * Reconfigure apache for better response times under heavier load.
+  * [Online core](http://www.espec.co.jp/english/products/env-test/pcs/) is now fully supported.
   * Bug Fixes:
     * WatlowF4T cascade loop setpoint minumum now works corretly instead of always returning -100
     * Firefox no longer triggers "server offline" on form submission.
