@@ -2,7 +2,7 @@
 Issue Tracker &amp; documentation for Espec Universal Web Controller.
 
 ## Version History
-Current Version: 2.1.2
+Current Version: 2.2.0
 
 Updates currently must be distrubuted via the [espec service department](http://www.espec.com/na/support/).
 
