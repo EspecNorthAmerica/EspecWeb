@@ -2,9 +2,14 @@
 Issue Tracker &amp; documentation for Espec Universal Web Controller.
 
 ## Version History
-Current Version: 2.2.0
+Current Version: 2.2.1
 
 Updates currently must be distrubuted via the [espec service department](http://www.espec.com/na/support/).
+
+### 2.2.1
+  * Fix static file versioning so that updated static files do not require manual refresh (issue #47).
+  * Fix Network view incorrect color for off chambers (issue #46)
+  * Fix issue loading in neighboring chambers when not logged in (issue #45)
 
 ### 2.2.0
   * Link to other controllers on network in the breadcrumb bar (web controller name is now a drop down)
