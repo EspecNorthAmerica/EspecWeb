@@ -62,4 +62,36 @@ Updates currently must be distrubuted via the [espec service department](http://
   * Add support for multi-controller chambers ie large IR chambers.
 
 ### 2.0.0:
-  * Initial Release, WatlowF4T support only.
+  * Initial Redesign, WatlowF4T support only.
+  
+### 1.1.4:
+  * Make baud rate configurable, SCP has intermittent issues with 19200, P300 requires 19200 for internal installations.
+  * Add basic install instructions to config.html, auto-detect now figures out baud rate.
+  * Correct TCP forwarder to properly handle client disconnects/timeouts.
+  
+### 1.1.3:
+  * Correct issue where programs could not be saved when TCPForwarding is disabled.
+  
+### 1.1.2:
+  * Correct program reads incorrectly showing humidity active and ignoring granity.
+  
+### 1.1.1:
+  * Change serial device to /dev/ttyUSB0 (default + all preset files).
+  * Correct program downloads. cgi data now always array with new ruby version.
+  
+### 1.1.0:
+  * Merge SCP220 firmware into P300 firmwares.
+  * Correct data logging process to use configured settings not autodetection (autodetection randomly incorrect).
+  * Change baud rate to 19200.
+  * Change maximum # of data points too 1000000 (can be changed for use on old gumstix hardware).
+  * Speed up CSV generation and graph data collection algorithm.
+  * Add auto configure button for everything except humdity graph (cannot be auto detected).
+  * Remove Time signal configuration options, in the future will be replaced with usefull individual selection system.
+  * Update ruby backend for newer 1.9.X versions
+  * Add current list of custom humidity graphs.
+  * Support new Hardware (raspberry pi) much faster and allows for more data storage.
+  * Add ability to display MAC address, passcode protected.
+  * Add basic status menu on video outputs and ssh login.
+  
+### 1.0.0 (old hardware only):
+  * Initial P300 Release
